@@ -1,3 +1,29 @@
-header {
-background-color: #FEDFE3
-};
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+height: 100dvh;
+width: 100dvw;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+background-image: url(./Fondo.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.logoPagina {
+    width: 60dvi;
+    height: auto;
+}
+
+.text-container{
+    font-family: montserrat;
+    color: #018E8A;
+    font-size: 20px;
+    text-align: center;
+}
+
+.boton{
+width: auto;
+height: 15dvi;
+}
