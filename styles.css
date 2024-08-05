@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.header{
-height: 100dvh;
-width: 100dvw;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-background-image: url(./Fondo.png);
-background-size: 100%;
-background-repeat: no-repeat;
+
+.header {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./Fondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .logoPagina {
@@ -16,14 +17,97 @@ background-repeat: no-repeat;
     height: auto;
 }
 
-.text-container{
+.text-container {
     font-family: montserrat;
     color: #018E8A;
     font-size: 20px;
     text-align: center;
 }
 
-.boton{
-width: auto;
-height: 15dvi;
+.boton {
+    width: auto;
+    height: 15dvi;
+}
+
+.segunda {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #018E8A;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tarjeta {
+    background-color: #F5FAF6;
+    border-radius: 30px;
+    width: 85dvw;
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoSegunda {
+    width: 40dvi;
+    height: auto;
+}
+
+.text-container-segunda {
+    font-family: montserrat;
+    color: #018E8A;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.fotoSegunda {
+    width: 100%;
+    bottom: 0%;
+}
+
+.tercera{
+    display: flex; 
+    flex-direction: column;
+    width: 100dvw;
+    background-color: #F5FAF6;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10dvi;
+    margin-top: 15dvi;
+}
+
+.terceraFoto {
+    width: 100%;
+}
+
+.tarjetaTercera {
+    background-color: #018E8A;
+    width: 85dvw;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    gap: 5dvi;
+}
+
+.text-container-tercera {
+    font-family: montserrat;
+    color: #F5FAF6;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+.text-container-tercera-h1 {
+    font-family: montserrat;
+    color: #F5FAF6;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    margin-top: 5dvi;
 }
